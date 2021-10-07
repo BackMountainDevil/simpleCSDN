@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         CSDN 优雅脚本
+// @name         simpleCSDN
 // @namespace    https://github.com/BackMountainDevil/simpleCSDN
 // @supportURL   https://github.com/BackMountainDevil/simpleCSDN/issues
 // @version      0.0.1
 // @license      MIT
-// @description  油猴脚本- 优雅的浏览 CSDN（去广告、布局调整）
+// @description  油猴脚本 优雅的浏览 CSDN（去广告、布局调整），尊重隐私
 // @author       小易
 // @match        *://blog.csdn.net/*/article/details/*
 // @grant        none
