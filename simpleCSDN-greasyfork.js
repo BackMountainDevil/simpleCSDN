@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         CSDN 优雅脚本
-// @namespace    https://github.com/BackMountainDevil/
+// @namespace    https://github.com/BackMountainDevil/simpleCSDN
 // @supportURL   https://github.com/BackMountainDevil/simpleCSDN/issues
 // @version      0.0.1
 // @license      MIT
