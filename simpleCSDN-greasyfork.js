@@ -36,6 +36,7 @@
   cssFix.innerHTML += '.csdn-side-toolbar{display:none !important;}'; // 广告、新手引导、客服、举报、很慢的回到顶部
   /* 容器宽度由默认的固定值修改为百分比，为主体内容铺开留下空间 */
   cssFix.innerHTML += '.nodata .container{width:100%;}';
+  cssFix.innerHTML += '.column-group{display:none !important;}'; // 文章所属专栏和专栏文章的数量
   document.getElementsByTagName('head')[0].appendChild(cssFix); // 实施隐藏
 
   var content = document.getElementsByTagName('main')[0]; // 铺开内容主体
