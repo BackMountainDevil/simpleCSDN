@@ -17,6 +17,7 @@
   /* 顶部的导航栏 */
   cssFix.innerHTML += '.toolbar-logo{display:none !important;}'; // 最左侧的 logo
   cssFix.innerHTML += '.toolbar-menus{display:none !important;}'; // 博客、课程、下载、问答、社区、插件、认证（单个隐藏太费劲）
+  cssFix.innerHTML += '.toolbar-btn-vip{display:none !important;}'; // 右侧的会员中心
   /* 根据 id 或者 类名 隐藏左侧栏目 */
   cssFix.innerHTML += '#asideProfile{display:none !important;}'; // 博主头像、数据、徽章
   cssFix.innerHTML += '#asideSearchArticle{display:none !important;}'; // 搜博主文章
