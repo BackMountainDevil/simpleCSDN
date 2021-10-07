@@ -9,6 +9,10 @@
 
 # 测试环境
 
+- 屏幕像素： 2560x1600
+- 操作系统全局缩放： 200%
+- 浏览器缩放：100%
+
 | 软件  | [Firefox](https://www.mozilla.org/zh-CN/firefox/new/) x64 for Manjaro | [Tampermonkery](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) by Jan Biniok |
 |---|---|---|
 |  版本 | 92.0.1  | 4.13.6136  |
