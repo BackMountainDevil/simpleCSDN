@@ -10,21 +10,20 @@
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
-
-function setTitle(_title) {// 修改网页标题名称
-  window.document.title = _title;
-}
-
-
 (function () {
   'use strict';
-  // setTitle("标题更换测试");
 
   var cssFix = document.createElement('style');
   /* 顶部的导航栏 */
   cssFix.innerHTML += '.toolbar-logo{display:none !important;}'; // 最左侧的 logo
   cssFix.innerHTML += '.toolbar-menus{display:none !important;}'; // 博客、课程、下载、问答、社区、插件、认证（单个隐藏太费劲）
-  
+  function setTitle(_title) {// 修改网页标题名称
+    window.document.title = _title;
+  }
+  function setTitle(_title) {// 修改网页标题名称
+    window.document.title = _title;
+  }
+    
   /* 根据 id 或者 类名 隐藏左侧栏目 */
   cssFix.innerHTML += '#asideProfile{display:none !important;}'; // 博主头像、数据、徽章
   cssFix.innerHTML += '#asideHotArticle{display:none !important;}'; // 热门文章
