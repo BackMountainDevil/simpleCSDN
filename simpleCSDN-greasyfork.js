@@ -36,5 +36,6 @@ function setTitle(_title) {// 修改网页标题名称
   cssFix.innerHTML += '.template-box{display:none !important;}'; // 皮肤主题显示栏（我又不能调，显摆用？）
   cssFix.innerHTML += '.left-toolbox{display:none !important;}'; // 没什么用的贴在底部的三连
 
+  cssFix.innerHTML += '.csdn-side-toolbar{display:none !important;}'; // 广告、新手引导、客服、举报、很慢的回到顶部
   document.getElementsByTagName('head')[0].appendChild(cssFix); // 实施隐藏
 })();
