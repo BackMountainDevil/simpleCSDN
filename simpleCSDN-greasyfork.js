@@ -27,7 +27,7 @@ function setTitle(_title) {// 修改网页标题名称
   cssFix.innerHTML += '#asideNewComments{display:none !important;}'; // 最新评论
   cssFix.innerHTML += '#asideCategory{display:none !important;}'; // 分类专栏
   cssFix.innerHTML += '#asideNewNps{display:none !important;}'; // 向朋友推荐
-  var asideArchive = document.getElementById('asideArchive')    // 最新文章新办法隐藏
+  var asideArchive = document.getElementById('asideArchive'); // 最新文章新办法隐藏
   asideArchive.remove();
   cssFix.innerHTML += '#footerRightAds{display:none !important;}'; // 广告
   /* 根据 id 或者 类名 隐藏底部栏目 */
