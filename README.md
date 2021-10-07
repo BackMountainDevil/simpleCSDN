@@ -7,6 +7,9 @@
 
 ## 安装
 
+1. 为浏览器安装 [Tampermonkery](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) 插件
+2. 从 [greasyfork](https://greasyfork.org/zh-CN/scripts/433559-simplecsdn) 安装该脚本到油猴插件中
+
 # 测试环境
 
 - 屏幕像素： 2560x1600
