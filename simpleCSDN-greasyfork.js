@@ -34,7 +34,7 @@
   cssFix.innerHTML += '.template-box{display:none !important;}'; // 皮肤主题显示栏（我又不能调，显摆用？）
   cssFix.innerHTML += '.left-toolbox{display:none !important;}'; // 没什么用的贴在底部的三连
   cssFix.innerHTML += '.csdn-side-toolbar{display:none !important;}'; // 广告、新手引导、客服、举报、很慢的回到顶部
-  /* 容器宽度由默认的固定值修改为百分比，为主题内容铺开留下空间 */
+  /* 容器宽度由默认的固定值修改为百分比，为主体内容铺开留下空间 */
   cssFix.innerHTML += '.nodata .container{width:100%;}';
   document.getElementsByTagName('head')[0].appendChild(cssFix); // 实施隐藏
 
