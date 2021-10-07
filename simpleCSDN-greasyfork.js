@@ -23,13 +23,13 @@ function setTitle(_title) {// 修改网页标题名称
   var cssFix = document.createElement('style');
   /* 根据 id 或者 类名 隐藏左侧栏目 */
   cssFix.innerHTML += '#asideProfile{display:none !important;}'; // 博主头像、数据、徽章
-
   cssFix.innerHTML += '#asideHotArticle{display:none !important;}'; // 热门文章
   cssFix.innerHTML += '#asideNewComments{display:none !important;}'; // 最新评论
   cssFix.innerHTML += '#asideCategory{display:none !important;}'; // 分类专栏
   cssFix.innerHTML += '#asideNewNps{display:none !important;}'; // 向朋友推荐
-  cssFix.innerHTML += '#asideArchive{display:none !important;}'; // 最新文章，此方法隐藏失效
-  cssFix.innerHTML += '#container{display:none !important;}'; //
+  var asideArchive = document.getElementById('asideArchive')    // 最新文章新办法隐藏
+  asideArchive.remove();
+  cssFix.innerHTML += '#footerRightAds{display:none !important;}'; // 广告
   /* 根据 id 或者 类名 隐藏底部栏目 */
   cssFix.innerHTML += '#copyright-box{display:none !important;}'; // 几乎没人想看的备案号
   cssFix.innerHTML += '.recommend-box{display:none !important;}'; // 相关文章
