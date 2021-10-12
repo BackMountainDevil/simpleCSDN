@@ -14,6 +14,7 @@
   'use strict';
 
   var cssFix = document.createElement('style');
+  cssFix.innerHTML += '.toolbar-advert{display:none !important;}'; // 顶部广告
   /* 顶部的导航栏 */
   cssFix.innerHTML += '.toolbar-logo{display:none !important;}'; // 最左侧的 logo
   cssFix.innerHTML += '.toolbar-menus{display:none !important;}'; // 博客、课程、下载、问答、社区、插件、认证（单个隐藏太费劲）
