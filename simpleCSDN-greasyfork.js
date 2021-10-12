@@ -2,7 +2,7 @@
 // @name         simpleCSDN
 // @namespace    https://github.com/BackMountainDevil/simpleCSDN
 // @supportURL   https://github.com/BackMountainDevil/simpleCSDN/issues
-// @version      0.0.1
+// @version      0.0.2
 // @license      MIT
 // @description  油猴脚本 优雅的浏览 CSDN（去广告、布局调整），尊重隐私
 // @author       小易
@@ -14,6 +14,7 @@
   'use strict';
 
   var cssFix = document.createElement('style');
+  cssFix.innerHTML += '.toolbar-advert{display:none !important;}'; // 顶部广告
   /* 顶部的导航栏 */
   cssFix.innerHTML += '.toolbar-logo{display:none !important;}'; // 最左侧的 logo
   cssFix.innerHTML += '.toolbar-menus{display:none !important;}'; // 博客、课程、下载、问答、社区、插件、认证（单个隐藏太费劲）
