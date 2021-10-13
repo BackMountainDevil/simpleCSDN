@@ -45,4 +45,33 @@
 
   var content = document.getElementsByTagName('main')[0]; // 铺开内容主体
   content.style.width='100%';
+
+	/* 自定义功能区
+	1. 快速返回顶部
+	2. 侧边可隐藏目录
+	*/
+	var div = document.createElement("div");
+	var style = document.createAttribute("style");
+	div.setAttributeNode(style);
+	div.style.marginTop = "1%";
+
+	var aTop = document.createElement("a"); // 返回顶部的超链接（看起来像可点击的按钮）
+	aTop.style.display = 'block';
+	aTop.style.width = '44px';
+	aTop.style.height = '44px';
+	aTop.style.cursor = 'pointer';
+	aTop.style.background = '#fff';
+	aTop.style.marginLeft='95%';	// 位置
+
+	aTop.alt = '返回顶部';
+	aTop.onclick= function o() { // 添加点击事件，实现立刻返回顶部
+		document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+	};
+	var img = document.createElement("img");
+	img.src = 'https://g.csdnimg.cn/side-toolbar/3.0/images/fanhuidingbucopy.png'; // 图片来源为原来的返回顶部
+	aTop.appendChild(img);
+
+	div.appendChild(aTop);
+	document.getElementsByTagName("main").item(0).appendChild(div); // 应用自定义功能区
 })();
