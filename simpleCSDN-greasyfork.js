@@ -73,5 +73,7 @@
 	aTop.appendChild(img);
 
 	div.appendChild(aTop);
+	var dir = document.getElementById('directory'); // 原生目录
+	div.appendChild(dir);
 	document.getElementsByTagName("main").item(0).appendChild(div); // 应用自定义功能区
 })();
