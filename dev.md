@@ -6,6 +6,13 @@ css 中为了区分 tag、id、class。tag 最简单，直接由 tagname 打头�
 
 在 js 中设置 margin-left 等属性时，在 ff 中测试结果表明没生效，vs codium 的错误检测也在这一行说要加分号。。。最后在[JavaScript 控制 margin](https://www.cnblogs.com/mslove/archive/2009/04/07/1430852.html)找到了可行的方案，把连字符去掉，并且连字符后面第一个字母改大写即可。
 
+# 支持过滤的页面
+
+对应代码中的 @match
+
+1. 博文详情页        *://blog.csdn.net/*/article/details/*
+2. 评论-消息        https://i.csdn.net/#/msg/index
+
 # 导航栏
 
 隐藏子项（如收藏、动态）的时候无法使用 `document.getElementsByClassName('toolbar-btn')`，从调试打断点的结果表明该脚本加载的时候导航栏还没有生成，会出现 undefined。最后采用的 css 的 display 属性将会员（根据特殊的 classname）隐藏

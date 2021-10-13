@@ -7,6 +7,7 @@
 // @description  油猴脚本 优雅的浏览 CSDN（去广告、布局调整），尊重隐私
 // @author       小易
 // @match        *://blog.csdn.net/*/article/details/*
+// @match        https://i.csdn.net/#/msg/index
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
