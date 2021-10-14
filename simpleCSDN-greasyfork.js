@@ -8,6 +8,7 @@
 // @author       小易
 // @match        *://blog.csdn.net/*/article/details/*
 // @match        https://i.csdn.net/#/msg/index
+// @match        https://im.csdn.net/chat/csdn_sysnotify
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==

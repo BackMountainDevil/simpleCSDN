@@ -10,8 +10,9 @@ css 中为了区分 tag、id、class。tag 最简单，直接由 tagname 打头�
 
 对应代码中的 @match
 
-1. 博文详情页        *://blog.csdn.net/*/article/details/*
-2. 评论-消息        https://i.csdn.net/#/msg/index
+1. 博文详情页    *://blog.csdn.net/*/article/details/*
+2. 评论-消息     https://i.csdn.net/#/msg/index
+3. 私信         https://im.csdn.net/chat/csdn_sysnotify
 
 # 导航栏
 
