@@ -53,9 +53,11 @@
 	2. 侧边可隐藏目录
 	*/
 	var div = document.createElement("div");
+  div.id='divTool';
 	var style = document.createAttribute("style");
 	div.setAttributeNode(style);
-	div.style.marginTop = "1%";
+	div.style.margin = '0';
+  div.style.padding='0';
 
 	var aTop = document.createElement("a"); // 返回顶部的超链接（看起来像可点击的按钮）
 	aTop.style.display = 'block';
@@ -76,6 +78,10 @@
 
 	div.appendChild(aTop);
 	var dir = document.getElementById('directory'); // 原生目录
+  dir.style.float='left';
+  dir.style.position='absolute';
+  dir.style.left='0';
+
 	div.appendChild(dir);
 	document.getElementsByTagName("main").item(0).appendChild(div); // 应用自定义功能区
 })();

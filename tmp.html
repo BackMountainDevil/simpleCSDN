@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #div1 {
+      width: 160px;
+      height: 320px;
+      background: #fff;
+      position: relative;
+      left: -140px;
+      top: 100px;
+    }
+
+    #div1 .hide {
+      width: 140px;
+      height: 320px;
+      background: cyan;
+      float: left;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    #div1 .show {
+      width: 17px;
+      height: auto;
+      background: skyblue;
+      border: 1px solid #000;
+      float: right;
+      position: absolute;
+      top: 39%;
+      right: 0;
+    }
+  </style>
+  <script type="text/javascript">
+    window.onload = function () {
+      var oDiv = document.getElementById('div1');
+      var timer;
+      oDiv.onmouseover = function () {
+        startMove2(0);
+      };
+      oDiv.onmouseout = function () {
+        startMove2(-140);
+      }
+      
+      function startMove2(end){
+        oDiv.style.left =end+ 'px';
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="div1">
+    <div class="hide">
+      <ul>
+        <li>qq</li>
+        <li>weibo</li>
+        <li>jb51</li>
+      </ul>
+    </div>
+    <div class="show">
+      <span>分享到</span>
+    </div>
+  </div>
+</body>
+
+</html>
