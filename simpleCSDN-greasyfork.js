@@ -34,6 +34,7 @@
   cssFix.innerHTML += '#footerRightAds{display:none !important;}'; // 广告
   cssFix.innerHTML += '.recommend-right{display:none !important;}'; // 80% 缩放下可见的右侧分类专栏
 
+  cssFix.innerHTML += '#blogColumnPayAdvert{display:none !important;}'; // 文章标题下方的广告
   /* 根据 id 或者 类名 隐藏底部栏目 */
   cssFix.innerHTML += '#copyright-box{display:none !important;}'; // 几乎没人想看的备案号
   cssFix.innerHTML += '.recommend-box{display:none !important;}'; // 相关文章
